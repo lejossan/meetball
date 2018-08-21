@@ -1,0 +1,45 @@
+@import "styles/shared.scss";
+
+.header {
+  padding: 20px;
+  grid-column: 1/-1;
+}
+
+.quote {
+  margin: 0.7rem 0 3rem 0;
+}
+.info {
+  @include font-size(24px);
+}
+
+.icon {
+  background-image:url('../images/icons.svg');
+  &-hint {
+    vertical-align: middle;
+    width: 50px;
+    background-position-x: center;
+  }
+}
+
+.line__yellow {
+  border-bottom: 2px solid get-color('yellow-d');
+  margin-top: -35px;
+}
+
+.inner p:first-child{
+  padding-top: 60px - $grid-gap;
+}
+
+ul.icons {
+  margin-top: 35px;
+  li {
+    background: get-color('white-l');
+  }
+}
+ul.list {
+  text-align: left;
+}
+.btn.cta {
+  margin: 0 auto 35px auto;
+  width: 212px;
+}

@@ -1,0 +1,13 @@
+@import "styles/shared.scss";
+
+.navigation {
+  text-align: left;
+  margin-bottom: 20px;
+  li {
+    margin-right: 20px;
+    vertical-align: middle;
+    &:last-child {
+      float: right;
+    }
+  }
+}

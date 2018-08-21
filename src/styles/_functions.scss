@@ -1,0 +1,14 @@
+/* Gets the correct color from color palette map */
+@function get-color($name: 'black', $palette-map: $palette) {
+  @if(map-has-key($palette-map, $name)) {
+    @return map-get($palette-map, $name);
+  }
+}
+
+/* Calculates font-size in px to rem value */
+@mixin font-size($font-size: $base--font-size, $line-height: $base--line-height) {
+  font-size: $font-size;
+  font-size: to_rem($font-size);
+  line-height: $line-height;
+  line-height: to_rem($line-height);
+}

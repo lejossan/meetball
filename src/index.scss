@@ -1,0 +1,21 @@
+@import "styles/shared.scss";
+
+body {
+  font-family: $font-family--regular;
+  text-align: center;
+  color: get-color('black');
+}
+
+.main {
+  padding: 30px;
+  display: grid;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-gap: $grid-gap;
+  grid-template-columns: repeat(12,1fr);
+}
+
+.inner {
+  grid-column: 2/12;
+}

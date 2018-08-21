@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Ball</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="75" cy="75" r="75"></circle>
+    </defs>
+    <g id="Start" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-437.000000, -107.000000)">
+            <g id="Ball" transform="translate(437.000000, 107.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Oval" fill="#F5B802" xlink:href="#path-1"></use>
+                <text id="BALL" mask="url(#mask-2)" font-family="AvenirNext-Medium, Avenir Next" font-size="20" font-weight="400" fill="#FAFAFF">
+                    <tspan x="51" y="117">BALL</tspan>
+                </text>
+                <text id="MEET" mask="url(#mask-2)" font-family="AvenirNext-Medium, Avenir Next" font-size="51" font-weight="400" fill="#FAFAFF">
+                    <tspan x="7.313" y="87">MEET</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
